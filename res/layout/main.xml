@@ -1,0 +1,38 @@
+<com.leo.demo.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flow_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/custom_view_01"
+        style="@style/text_flag_01"
+        android:onClick="click"
+        android:text="RandomTextView" />
+
+    <Button
+        android:id="@+id/custom_view_02"
+        style="@style/text_flag_01"
+        android:onClick="click"
+        android:text="ImagewithText" />
+
+    <Button
+        android:id="@+id/custom_view_03"
+        style="@style/text_flag_01"
+        android:onClick="click"
+        android:text="双色圆环" />
+
+    <Button
+        android:id="@+id/custom_view_04"
+        style="@style/text_flag_01"
+        android:onClick="click"
+        android:text="CustomViewGrounp" />
+
+    <Button
+        android:id="@+id/custom_view_05"
+        style="@style/text_flag_01"
+        android:onClick="click"
+        android:text="自定义音量条" />
+
+</com.leo.demo.FlowLayout>
